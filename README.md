@@ -29,3 +29,4 @@ machine LoadPlatformDescription @/tmp/elf/add-ccm.repl
 showAnalyzer sysbus.uart2
 start
 ```
+![Simulation Complete](https://github.com/pksublime/RenodeSTM32/blob/main/SimulationComplete.png)
