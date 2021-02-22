@@ -17,7 +17,7 @@ Simply run ```make``` to produce the ```renode-example.elf``` file.
 
 ## Simulating
 ### Docker Container
-As I'm using docker, I needed to ensure my local directory so mounted the PWD at a known location inside the container.
+As I'm using docker, I needed to ensure my local directory is available, so I mounted the PWD at a known location inside the container.
 To run the Renode environment, run ```sudo docker run -ti -e DISPLAY -v $XAUTHORITY:/home/developer/.Xauthority -v $PWD:/tmp/elf --net=host antmicro/renode```.
 ### Within Renode
 Run the following commands to create the machine, load the binary, and observe the output.
